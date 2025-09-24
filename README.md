@@ -4,6 +4,7 @@ IMDb Sentiment Classification
 This project aims to classify IMDb movie reviews as either positive or negative using classical machine learning models. The dataset contains 50,000 reviews, each labeled with its sentiment.
 
 <br>
+
 **Dataset**
 
 Source: IMDb movie reviews
