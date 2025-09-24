@@ -25,15 +25,15 @@ The overall workflow can be summarized in three main stages:
 
 **Preprocessing**
 
-1.Removed HTML tags, numbers, and special characters.
+1. Removed HTML tags, numbers, and special characters.
 
-2.Converted all text to lowercase.
+2. Converted all text to lowercase.
 
-3.Removed extra whitespaces.
+3. Removed extra whitespaces.
 
-4.Dropped duplicates and rows with missing values.
+4. Dropped duplicates and rows with missing values.
 
-5.Converted sentiment labels into numeric format (positive → 1, negative → 0).
+5. Converted sentiment labels into numeric format (positive → 1, negative → 0).
 
 <br>
 
@@ -45,13 +45,13 @@ Applied TF-IDF vectorization to convert raw text into numerical vectors .
 
 **Models Implemented**
 
-1.Logistic Regression
+1. Logistic Regression
 
-2.Support Vector Machine (SVM)
+2. Support Vector Machine (SVM)
 
-3.Random Forest
+3. Random Forest
 
-4.XGBoost
+4. XGBoost
 
 5.Naive Bayes 
 
@@ -59,15 +59,15 @@ Applied TF-IDF vectorization to convert raw text into numerical vectors .
 
 **Evaluation Metrics**
 
-1.Accuracy
+1. Accuracy
 
-2.Precision
+2. Precision
 
-3.Recall
+3. Recall
 
-4.F1-score
+4. F1-score
 
-5.Confusion Matrix
+5. Confusion Matrix
 
 <br>
 
