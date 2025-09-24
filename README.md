@@ -3,7 +3,7 @@ IMDb Sentiment Classification
 
 This project aims to classify IMDb movie reviews as either positive or negative using classical machine learning models. The dataset contains 50,000 reviews, each labeled with its sentiment.
 
-Dataset
+**Dataset**
 
 Source: IMDb movie reviews
 
@@ -15,7 +15,8 @@ review: the text of the movie review
 
 sentiment: label (positive or negative)
 
-Approach
+
+**Approach**
 
 The overall workflow can be summarized in three main stages:
 
@@ -31,12 +32,13 @@ Preprocessing the text
 
 5.Converted sentiment labels into numeric format (positive → 1, negative → 0).
 
-Feature extraction
+
+**Feature extraction**
 
 Applied TF-IDF vectorization to convert raw text into numerical vectors .
 
 
-Models Implemented
+**Models Implemented**
 
 1.Logistic Regression
 
@@ -48,7 +50,8 @@ Models Implemented
 
 5.Naive Bayes 
 
-Evaluation Metrics
+
+**Evaluation Metrics**
 
 1.Accuracy
 
@@ -60,7 +63,8 @@ Evaluation Metrics
 
 5.Confusion Matrix
 
-Results 
+
+**Results** 
 
 | Model               | Accuracy | Precision | Recall | F1-score |
 | ------------------- | -------- | --------- | ------ | -------- |
